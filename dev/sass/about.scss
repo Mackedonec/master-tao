@@ -1,0 +1,28 @@
+.container-fluid {
+  &.primary-bg-section {
+    &.about {
+      padding: 48px 50px 28px;
+      position: relative;
+      .about-descript {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 170%;
+      }
+      .about-descript__company {
+        max-width: 555px;
+        margin-top: -7px;
+      }
+      .about-descript__choose {
+        margin-top: 21px;
+        max-width: 555px;
+      }
+      .about-img {
+        margin-left: 9px;
+        margin-top: -58px;
+        position: relative;
+        max-width: 550px;
+        z-index: -1;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width: 767px) {
+  .calculate-form {
+    .input-block {
+      input {
+        width: 100%;
+        max-width: 555px;
+      }
+      .btn {
+        width: 100%;
+        max-width: 555px;
+        &::after {
+          right: 15px;
+        }
+      }
+    }
+  }
+  .calculate {
+    .container {
+      padding: 0 20px 0 0;
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  section {
+    &.container-fluid {
+      &.primary-bg-section {
+        padding: 50px 20px 28px;
+      }
+    }
+  }
+  .container-fluid {
+    &.primary-bg-section {
+      &.about {
+        .about-img {
+          margin: 7px auto 0;
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      display: block;
+
+      .section {
+        &.two {
+          display: none;
+        }
+      }
+    }
+  }
+}

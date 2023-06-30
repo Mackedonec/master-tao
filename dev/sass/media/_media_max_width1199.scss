@@ -1,0 +1,131 @@
+@media screen and (max-width: 1699px) {
+  .first-screen {
+    .container {
+      padding: 164px 20px 228px 150px;
+    }
+    .container-arrows {
+      padding-left: 85px;
+      padding-right: 85px;
+    }
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .delivery,
+  .services {
+    .container {
+      max-width: 780px;
+    }
+  }
+  .slider-template {
+    .slick-arrow {
+      &.slick-next {
+        right: -60px;
+      }
+
+      &.slick-prev {
+        left: -60px;
+      }
+    }
+  }
+  .container-fluid {
+    &.primary-bg-section {
+      &.faq {
+        .accordion-flus {
+          .accordion-item {
+            max-width: 616px;
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    &.secondary-bg-section {
+      &.cooperation {
+        .cooperation-ul-box__two {
+          padding-top: 30px;
+          padding-right: 0;
+          margin-left: 25px;
+        }
+        .cooperation-img__one {
+          padding-top: 13px;
+          margin-left: -59px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .calculate {
+    .container {
+      &::after {
+        z-index: -1;
+      }
+    }
+  }
+  .container-fluid {
+    &.primary-bg-section {
+      &.about {
+        .about-descript {
+          font-size: 16px;
+        }
+        .about-img {
+          width: 450px;
+          margin-left: -80px;
+        }
+      }
+    }
+  }
+  .container-fluid {
+    &.primary-bg-section {
+      &.faq {
+        .accordion-flus {
+          .accordion-item {
+            max-width: 516px;
+            .accordion-header {
+              .accordion-button {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    &.secondary-bg-section {
+      &.cooperation {
+        .cooperation-ul-box__two,
+        .cooperation-ul-box__one {
+          margin: 0 auto;
+          max-width: 535px;
+          text-align: center;
+        }
+        .cooperation-img__one,
+        .cooperation-img__two {
+          margin: 0 auto;
+          max-width: 640px;
+          text-align: center;
+        }
+        .row {
+          .col-xl-6 {
+            &:nth-of-type(2) {
+              order: -1;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      .section {
+        margin: 0 auto;
+        &.four {
+          display: none;
+        }
+      }
+    }
+  }
+}

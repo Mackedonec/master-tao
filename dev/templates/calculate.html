@@ -1,0 +1,70 @@
+<section class="container-fluid primary-bg-section calculate">
+  <div class="container">
+    <div class="template-title text-left col-lg-7">
+      <h2>Получить рассчет стоимости доставки вашего груза</h2>
+    </div>
+    <form class="calculate-form">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="input-block">
+            <label for="category">Категория товара:</label>
+            <input type="text" name="category" id="category" placeholder="Категория товара">
+          </div>
+          <div class="input-block">
+            <label for="weight">Вес груза (кг):</label>
+            <input type="number" name="weight" id="weight" placeholder="Введите вес">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-block">
+            <label for="cost">Стоимость груза:</label>
+            <input type="number" name="cost" id="cost" placeholder="Введите стоимость">
+          </div>
+          <div class="input-block">
+            <label for="capacity">Объем груза (м3):</label>
+            <input type="number" name="firstnacapacityme" id="capacity" placeholder="Введите объем">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="checkbox-block">
+            <input type="checkbox" id="insurance" name="calculation" value="insurance">
+            <label for="insurance">Страховка</label>
+          </div>
+          <div class="checkbox-block">
+            <input type="checkbox" checked id="clearance" name="calculation" value="clearance">
+            <label for="clearance">Таможенное оформление</label>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-block">
+            <label for="entry-tn-code">Код ТН ВЭД:</label>
+            <input type="text" name="entry-tn-code" id="entry-tn-code" placeholder="Введите код">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="file-name">
+            фотография.jpeg
+          </div>
+          <div class="file-row">
+            <label for="fileInput" class="label-file">Загрузить фото товара</label>
+            <input class="input-file" id="fileInput" name="fileInput" type="file">
+            <div class="file-row__text">
+              Загрузить фото товара
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-block">
+            <button type="button" class="btn btn-primary size-desktop-medium-plus">Следующий шаг</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

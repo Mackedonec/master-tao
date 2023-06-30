@@ -1,0 +1,58 @@
+.container-fluid {
+  &.secondary-bg-section {
+    &.excellence {
+      padding: 90px 85px 33px;
+      .excellence-slider {
+        padding-top: 11px;
+        .col-lg-3 {
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .slick-dots {
+          .slick-active {
+            position: relative;
+            top: 13px;
+            width: 8px;
+            height: 8px;
+            button {
+              display: none;
+            }
+          }
+        }
+      }
+      .excellence-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .excellence-img {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 93px;
+          height: 93px;
+          border-radius: 50%;
+          background-color: $secondary-color;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 113px;
+            height: 113px;
+            border: 1px solid #6c7188;
+            border-radius: 50%;
+          }
+        }
+        .excellence-title {
+          padding-top: 32px;
+          padding-bottom: 48px;
+
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 124.5%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+header {
+  .navbar {
+    padding: 25px 0 39px;
+    .navbar-brand {
+      padding: 0;
+    }
+    .nav-link {
+      color: $text-primary-color;
+      transition: 0.3s;
+      &:hover,
+      &:focus {
+        color: $primary-color;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+    }
+    .navbar-nav {
+      padding-top: 4px;
+      max-width: 617px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+
+      .nav-link {
+        &.active {
+          color: $primary-color;
+        }
+        &.disabled {
+          color: #3a3a3a;
+        }
+      }
+    }
+    .btn {
+      margin-left: 16px;
+    }
+
+    .navbar-toggler {
+      position: relative;
+      border: none;
+      width: 27.5px;
+      height: 25px;
+      padding: 0;
+      &-icon {
+        background-image: none;
+        position: absolute;
+        background-color: $text-primary-color;
+        height: 2.5px;
+        width: 27.5px;
+        left: 0;
+        top: 11px;
+        transition: 0.4s;
+        &::before,
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          background-color: $text-primary-color;
+          height: 2.5px;
+          width: 27.5px;
+          top: -11px;
+          left: 0;
+          transition: 0.2s;
+        }
+        &::after {
+          top: initial;
+          bottom: -11px;
+          left: 0;
+          transition: 0.2s;
+          // top: -11px;
+        }
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  [aria-expanded="true"] {
+    .navbar-toggler-icon {
+      background-color: transparent;
+      width: 0;
+      &::before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+      &::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

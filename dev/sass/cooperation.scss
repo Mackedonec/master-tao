@@ -1,0 +1,49 @@
+.container-fluid {
+  &.secondary-bg-section {
+    &.cooperation {
+      margin-top: -40px;
+      padding: 89px 65px 47px;
+      .cooperation-ul-box__one {
+        padding-top: 38px;
+        padding-right: 24px;
+        margin-left: -33px;
+      }
+      .cooperation-ul-box__two {
+        padding-top: 30px;
+        padding-right: 24px;
+        margin-left: -15px;
+        .buttons {
+          margin-left: 31px;
+        }
+      }
+      .cooperation-img__one {
+        padding-top: 13px;
+        margin-left: -33px;
+      }
+      .cooperation-img__two {
+        padding-top: 0;
+        margin-top: -21px;
+        margin-left: -35px;
+      }
+      ul {
+        list-style: none;
+        li {
+          position: relative;
+          font-weight: 300;
+          font-size: 17px;
+          line-height: 156.5%;
+          padding-bottom: 28px;
+          &::before {
+            position: relative;
+            display: inline-block;
+            content: "•";
+            top: 0;
+            left: 1px;
+            width: 11px;
+            height: 11px;
+          }
+        }
+      }
+    }
+  }
+}
