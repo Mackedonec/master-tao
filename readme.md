@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 Master Tao - dev
 Верстка зроблена під PerfectPixel. Макет для порівняння знаходиться в папці assets/maket
 Посилання на макет в figma https://www.figma.com/file/aWWWcNtNgSBN1ZksoDc4rM/master-tao?type=design&node-id=21659%3A2&mode=design&t=B3YGYRYgDM5SzUkA-1
 
-=======
->>>>>>> parent of 8c6d95c (add maket)
 ![version](https://img.shields.io/badge/version-1.0-red.svg?style=flat-square "Version Frontend-kit")
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/sinups/)
 
@@ -12,7 +9,7 @@ Master Tao - dev
 
 🌏 Cайт : http://codbox.ru
 
-👦   Автор : [ A K ](https://www.instagram.com/webtheory/ "Instagram page")
+👦 Автор : [ A K ](https://www.instagram.com/webtheory/ "Instagram page")
 
 ## Стартовый репозиторий .
 
@@ -22,7 +19,7 @@ Master Tao - dev
 
 Сборка - `<b>`Gulp 4`</b>`
 
-Запуск конкретной задачи: `npm start имя_задачи` (список задач  в `gulpfile.js`)
+Запуск конкретной задачи: `npm start имя_задачи` (список задач в `gulpfile.js`)
 
 Остановка: `<kbd>`Ctrl + C`</kbd>`
 
@@ -30,7 +27,7 @@ Master Tao - dev
 
 `<svg class="custom-class" width="14px" height="14px"><use xlink:href="img/sprite-svg.svg#img_name"></use></svg>`
 
-Или можете сделать include в верху сайта  ниже тега `Body`
+Или можете сделать include в верху сайта ниже тега `Body`
 
 `@@include('img/sprite-svg.svg')`
 
@@ -59,7 +56,6 @@ CSS
 HTML
 
 `<i class="icon icon-home"></i>`
-
 
 ## Обновить зависимости
 
