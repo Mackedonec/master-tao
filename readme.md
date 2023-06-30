@@ -1,5 +1,7 @@
 Master Tao - dev
+
 Верстка зроблена під PerfectPixel. Макет для порівняння знаходиться в папці assets/maket
+
 Посилання на макет в figma https://www.figma.com/file/aWWWcNtNgSBN1ZksoDc4rM/master-tao?type=design&node-id=21659%3A2&mode=design&t=B3YGYRYgDM5SzUkA-1
 
 ![version](https://img.shields.io/badge/version-1.0-red.svg?style=flat-square "Version Frontend-kit")
